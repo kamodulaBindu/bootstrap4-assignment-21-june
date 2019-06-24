@@ -1,0 +1,232 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>UniversalStores</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#ccc">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<!--navbar-->
+  <nav class="navbar navbar-expand-lg  fixed-top">
+    <a class="navbar-brand" href="#"><img id="logo" src="img/logo.jpg"></a>
+    <button class="navbar-toggler" id="collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span>
+            <i class="fas fa-bars"></i>
+        </span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contact Us</a>
+          </li>
+          <li>
+            <form class="form-inline ">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </li>
+      </ul>
+      <div class="side-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item" id="cart" >
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>Cart</a>
+          </li>
+          <li class="nav-item dropdown" id="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user-alt"></i>  User
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"><i class="fas fa-pencil-alt"></i>Update Profile</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-cog"></i>Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i></i>Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+  <div class="container">
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="0"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+            <img src="img/carousel.png" alt="Los Angeles" id="caro">
+        </div>
+        <div class="carousel-item" >
+            <img src="img/carousel1.png" alt="Los Angeles" id="caro1">
+          </div>
+        <div class="carousel-item" >
+          <img src="img/carousel2.jpg" alt="Chicago" id="caro2">
+        </div>
+        <div class="carousel-item" >
+          <img src="img/men-ethnic.jpg" alt="mens" id="caro3" >
+        </div>
+        <div class="carousel-item" >
+          <img src="img/carousel4.jpg" alt="Chicago" id="caro4">
+        </div>
+        <div class="carousel-item" >
+          <img src="img/kids.png" alt="Chicago" id="caro5">
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+    <div class="jumbotron">
+        <h1>Flat 50% off for new Users!!</h1> 
+        <p>*50% off upto &#8377 500 on purchase of min &#8377 2500.</p> 
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">COUPON-CODE</button>
+  
+            <!-- Modal -->
+            <div id="myModal" class="modal fade right" role="dialog">
+             <div class="modal-dialog">
+  
+                 <!-- Modal content-->
+              <div class="modal-content">
+                 <div class="modal-header">
+                    <h4 class="modal-title">COUPON-CODE</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   
+               </div>
+              <div class="modal-body">
+                    <h2>NEWUNIVERSAL50</h2>
+                    <p>Enter COUPON-CODE at check-out!</p>
+              </div>
+             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+  
+    </div>
+  </div>
+      </div>
+      <!--grid-row-->
+    <div class="container-fluid">
+        <!-- Control the column width, and how they should appear on different devices -->
+        <div class="row">
+          <div class="col-sm-6" >
+            <h3>Men Fashion</h3>
+            <img class="rowimg" src="img/men-fashion.jpeg" alt="MEN FASHION">
+             
+          </div>
+          <div class="col-sm-6" >
+              <h3>women Fashion</h3>
+              <img class="rowimg" src="img/women-fashion.jpeg" alt="WOMEN FASHION">
+          
+          </div>
+        </div>
+        <!--grid-row-->
+        <div class="container-fluid">
+            <!-- Control the column width, and how they should appear on different devices -->
+            <div class="row">
+              <div class="col-sm-6" >
+                  <h3>Men ethnic</h3>
+                  <img class="rowimg" src="img/m-ethnic.png" alt="MEN ETHNIC">
+                 
+              </div>
+              <div class="col-sm-6" >
+                  <h3>women ethnic</h3>
+                  <img class="rowimg" src="img/women-ethnic.jpg" alt="WOMEN ETHNIC">
+              
+              </div>
+          </div>
+        <div class="container-fluid">
+            <!-- Control the column width, and how they should appear on different devices -->
+            <div class="row">
+              <div class="col-sm-12" >
+                  <h3>Kids wear</h3>
+                  <img class="rowimg" src="img/kids-fashion.jpg" alt="KIDS CLOTHING">
+              
+              </div>
+              
+        </div>
+  </div><!--end container fluid-->
+  </div><!--end container fluid-->
+  <!--end grid-row-->
+  </div> <!--end container-->
+  <!--embed vedio-->
+  <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_c9zYQ_ZcpI" allowfullscreen></iframe>
+    </div>
+    <!--end embed vedio-->
+  </div>
+  <!--end container-->
+  <footer >
+      <p> follow us on:<br></p>
+      <!--favicons-->
+      <a  href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a  href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+       <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+       <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a><!--end favicons-->
+             <p>Copyright &#169 2018 UniversalStores.inc. All Rights Reserved. <a href="#"><u> Terms of use</u></a>  | <a href="#" ><u>Privacy Policy</u></a></p>
+       </p>
+   </footer><!--end footer-->
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
