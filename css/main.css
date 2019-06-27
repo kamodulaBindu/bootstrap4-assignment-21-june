@@ -149,6 +149,10 @@ selection {
  .row{
    padding: 30px;
  }
+ #offers{
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
